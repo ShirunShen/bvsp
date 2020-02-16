@@ -1,11 +1,15 @@
 Package: bvsp
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Bivariate Spline Basis Function on Triangulation
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Shirun Shen, Huijun Pan, Lan Zhou
+Maintainer: Shirun Shen <shirun.stat@gmail.com>
+Description: use to construct the bivariate spline basis function on triangulations.
+License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.0.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
